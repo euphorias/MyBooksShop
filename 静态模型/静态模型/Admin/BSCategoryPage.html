@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>小类别管理</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/css.css" />
+    <script type="text/javascript" src="../js/jquery1.9.0.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/sdmenu.js"></script>
+    <script type="text/javascript">
+        function showAdd() {
+            window.showModalDialog("BSCategoryAdd.html?r=" + Math.random(), "", "dialogWidth:400px;dialogHeight:150px");
+        }
+        function showEdit() {
+            window.showModalDialog("BSCategoryEdit.html?r=" + Math.random(), "", "dialogWidth:400px;dialogHeight:150px");
+        }
+    </script>
+</head>
+<body style="margin:10px">
+    <div class="title_right"><span class="pull-right margin-bottom-5"></span><strong>书籍小类别管理</strong></div>
+    <table style="margin:10px 0px;padding:5px 2px">
+        <tr>
+            <td align="right" nowrap="nowrap">所属大类别：</td>
+            <td>
+                <select class="span2" style="height:25px">
+                    <option>全部</option>
+                    <option>大类别1</option>
+                    <option>大类别2</option>
+                    <option>大类别3</option>
+                </select>
+            </td>
+            <td>&nbsp;&nbsp;<input type="button" value="查询" class="btn btn-info" /></td>
+        </tr>
+    </table>
+    <input type="button" value="新增小类别" class="btn btn-info" onclick="showAdd()" />
+    <p />
+    <table class="table table-bordered table-striped table-hover" style="width:90%">
+        <tbody>
+            <tr align="center">
+                <td nowrap="nowrap"><strong>小类别名称</strong></td>
+                <td nowrap="nowrap"><strong>所属大类别</strong></td>
+                <td width="80" nowrap="nowrap"><strong> 操作 </strong></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">小类别1</td>
+                <td nowrap="nowrap">大类别1</td>
+                <td nowrap="nowrap"><a href="#" onclick="showEdit()">编辑</a> <a href="#">删除</a> </td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">小类别2</td>
+                <td nowrap="nowrap">大类别1</td>
+                <td nowrap="nowrap"><a href="#" onclick="showEdit()">编辑</a> <a href="#">删除</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">小类别3</td>
+                <td nowrap="nowrap">大类别2</td>
+                <td nowrap="nowrap"><a href="#" onclick="showEdit()">编辑</a> <a href="#">删除</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">小类别4</td>
+                <td nowrap="nowrap">大类别2</td>
+                <td nowrap="nowrap"><a href="#" onclick="showEdit()">编辑</a> <a href="#">删除</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">小类别5</td>
+                <td nowrap="nowrap">大类别3</td>
+                <td nowrap="nowrap"><a href="#" onclick="showEdit()">编辑</a> <a href="#">删除</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

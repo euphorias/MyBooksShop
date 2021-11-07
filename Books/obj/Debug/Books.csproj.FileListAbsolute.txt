@@ -1,0 +1,81 @@
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\ApplicationInsights.config
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\csc.exe
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\System.Collections.Immutable.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\vbc.exe
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\VBCSCompiler.exe
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\roslyn\VBCSCompiler.exe.config
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\Books.dll.config
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\Books.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\Books.pdb
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\bll.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\models.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\dal.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\bll.pdb
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\models.pdb
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\bin\dal.pdb
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\obj\Debug\Books.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\obj\Debug\Books.dll
+c:\users\student\documents\visual studio 2015\Projects\Books\Books\obj\Debug\Books.pdb
+E:\Books\Books\bin\ApplicationInsights.config
+E:\Books\Books\bin\roslyn\csc.exe
+E:\Books\Books\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Books\Books\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Books\Books\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Books\Books\bin\roslyn\System.Collections.Immutable.dll
+E:\Books\Books\bin\roslyn\System.Reflection.Metadata.dll
+E:\Books\Books\bin\roslyn\vbc.exe
+E:\Books\Books\bin\roslyn\VBCSCompiler.exe
+E:\Books\Books\bin\roslyn\VBCSCompiler.exe.config
+E:\Books\Books\bin\Books.dll.config
+E:\Books\Books\bin\Books.dll
+E:\Books\Books\bin\Books.pdb
+E:\Books\Books\bin\bll.dll
+E:\Books\Books\bin\models.dll
+E:\Books\Books\bin\dal.dll
+E:\Books\Books\bin\bll.pdb
+E:\Books\Books\bin\models.pdb
+E:\Books\Books\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Books\Books\bin\dal.pdb
+E:\Books\Books\obj\Debug\Books.dll
+E:\Books\Books\obj\Debug\Books.pdb
+C:\Users\huhui\Desktop\Books\Books\bin\ApplicationInsights.config
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\csc.exe
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\vbc.exe
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\VBCSCompiler.exe
+C:\Users\huhui\Desktop\Books\Books\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\huhui\Desktop\Books\Books\bin\Books.dll.config
+C:\Users\huhui\Desktop\Books\Books\bin\Books.dll
+C:\Users\huhui\Desktop\Books\Books\bin\Books.pdb
+C:\Users\huhui\Desktop\Books\Books\bin\bll.dll
+C:\Users\huhui\Desktop\Books\Books\bin\models.dll
+C:\Users\huhui\Desktop\Books\Books\bin\dal.dll
+C:\Users\huhui\Desktop\Books\Books\bin\bll.pdb
+C:\Users\huhui\Desktop\Books\Books\bin\models.pdb
+C:\Users\huhui\Desktop\Books\Books\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\huhui\Desktop\Books\Books\bin\dal.pdb
+C:\Users\huhui\Desktop\Books\Books\obj\Debug\Books.csproj.AssemblyReference.cache
+C:\Users\huhui\Desktop\Books\Books\obj\Debug\Books.csproj.CoreCompileInputs.cache
+C:\Users\huhui\Desktop\Books\Books\obj\Debug\Books.csproj.CopyComplete
+C:\Users\huhui\Desktop\Books\Books\obj\Debug\Books.dll
+C:\Users\huhui\Desktop\Books\Books\obj\Debug\Books.pdb
+E:\Books\Books\obj\Debug\Books.csproj.AssemblyReference.cache
+E:\Books\Books\obj\Debug\Books.csproj.CoreCompileInputs.cache

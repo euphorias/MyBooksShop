@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>订单管理</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/css.css" />
+    <script type="text/javascript" src="../js/jquery1.9.0.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/sdmenu.js"></script>
+    <script type="text/javascript" src="laydate/laydate.js"></script>
+</head>
+<body style="margin:10px">
+    <div class="title_right"><span class="pull-right margin-bottom-5"></span><strong>订单管理</strong></div>
+    <table style="width:900px;margin:10px 0px;padding:5px 2px">
+        <tr>
+            <td align="right" nowrap="nowrap">订单编号：</td>
+            <td><input type="text" class="span2" /></td>
+            <td align="right" nowrap="nowrap">客户姓名：</td>
+            <td><input type="text" class="span2" /> </td>
+            <td align="right" nowrap="nowrap">订单状态：</td>
+            <td>
+                <select class="span2" style="height:25px">
+                    <option>全部</option>
+                    <option>待确认</option>
+                    <option>已确认</option>
+                    <option>已发货</option>
+                    <option>完成</option>
+                </select>
+            </td>
+            <td align="right" nowrap="nowrap">订单时间：</td>
+            <td>
+                <input type="text" disabled="disabled" class="laydate-icon span1-1" id="Calendar1" value="2016-08-25" /> 至
+                <input type="text" disabled="disabled"  class="laydate-icon span1-1" id="Calendar2" value="2016-08-25" />
+                <input type="checkbox"/>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="查询" class="btn btn-info" /></td>
+        </tr>
+    </table>
+    <p />
+    <table class="table table-bordered table-striped table-hover" style="width:90%">
+        <tbody>
+            <tr align="center">
+                <td nowrap="nowrap"><strong>订单编号</strong></td>
+                <td nowrap="nowrap"><strong>客户姓名</strong></td>
+                <td nowrap="nowrap"><strong>订单时间</strong></td>
+                <td nowrap="nowrap"><strong>总金额</strong></td>
+                <td nowrap="nowrap"><strong>状态</strong></td>
+                <td nowrap="nowrap"><strong>操作</strong></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap"><a href="OrderDetailPage.html">DD201601010001</a></td>
+                <td nowrap="nowrap">张三</td>
+                <td nowrap="nowrap">2016-01-01</td>
+                <td nowrap="nowrap">1000.00</td>
+                <td nowrap="nowrap">待确认</td>
+                <td nowrap="nowrap"><a href="#">确认</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap"><a href="OrderDetailPage.html">DD201601010002</a></td>
+                <td nowrap="nowrap">张三</td>
+                <td nowrap="nowrap">2016-01-01</td>
+                <td nowrap="nowrap">2000.00</td>
+                <td nowrap="nowrap">已确认</td>
+                <td nowrap="nowrap"><a href="#">发货</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap"><a href="OrderDetailPage.html">DD201601010003</a></td>
+                <td nowrap="nowrap">张三</td>
+                <td nowrap="nowrap">2016-01-01</td>
+                <td nowrap="nowrap">3000.00</td>
+                <td nowrap="nowrap">已发货</td>
+                <td nowrap="nowrap"><a href="#">完成</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap"><a href="OrderDetailPage.html">DD201601020001</a></td>
+                <td nowrap="nowrap">张三</td>
+                <td nowrap="nowrap">2016-01-02</td>
+                <td nowrap="nowrap">4000.00</td>
+                <td nowrap="nowrap">已完成</td>
+                <td nowrap="nowrap"></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap"><a href="OrderDetailPage.html">DD201601020002</a></td>
+                <td nowrap="nowrap">张三</td>
+                <td nowrap="nowrap">2016-01-02</td>
+                <td nowrap="nowrap">5000.00</td>
+                <td nowrap="nowrap">已完成</td>
+                <td nowrap="nowrap"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="text-align:right;width:90%">
+        <input type="button" value="首页" class="btn btn-info" />
+        <input type="button" value="上一页" class="btn btn-info" />
+        <input type="button" value="下一页" class="btn btn-info" />
+        <input type="button" value="尾页" class="btn btn-info" />
+    </div>
+    <script>
+        !function () {
+            laydate.skin('molv');
+            laydate({ elem: '#Calendar1' });
+            laydate.skin('molv');
+            laydate({ elem: '#Calendar2' });
+        }();
+	</script>
+    </script>
+</body>
+</html>

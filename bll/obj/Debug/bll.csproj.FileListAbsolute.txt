@@ -1,0 +1,31 @@
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\bin\Debug\bll.dll
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\bin\Debug\bll.pdb
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\bin\Debug\dal.dll
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\bin\Debug\models.dll
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\bin\Debug\dal.pdb
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\bin\Debug\models.pdb
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\obj\Debug\bll.csprojResolveAssemblyReference.cache
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\obj\Debug\bll.dll
+c:\Users\student\documents\visual studio 2015\Projects\Books\bll\obj\Debug\bll.pdb
+E:\Books\bll\bin\Debug\bll.dll
+E:\Books\bll\bin\Debug\bll.pdb
+E:\Books\bll\bin\Debug\dal.dll
+E:\Books\bll\bin\Debug\models.dll
+E:\Books\bll\bin\Debug\dal.pdb
+E:\Books\bll\bin\Debug\models.pdb
+E:\Books\bll\obj\Debug\bll.dll
+E:\Books\bll\obj\Debug\bll.pdb
+C:\Users\huhui\Desktop\Books\bll\bin\Debug\bll.dll
+C:\Users\huhui\Desktop\Books\bll\bin\Debug\bll.pdb
+C:\Users\huhui\Desktop\Books\bll\bin\Debug\dal.dll
+C:\Users\huhui\Desktop\Books\bll\bin\Debug\models.dll
+C:\Users\huhui\Desktop\Books\bll\bin\Debug\dal.pdb
+C:\Users\huhui\Desktop\Books\bll\bin\Debug\models.pdb
+C:\Users\huhui\Desktop\Books\bll\obj\Debug\bll.csproj.AssemblyReference.cache
+C:\Users\huhui\Desktop\Books\bll\obj\Debug\bll.csproj.CoreCompileInputs.cache
+C:\Users\huhui\Desktop\Books\bll\obj\Debug\bll.csproj.CopyComplete
+C:\Users\huhui\Desktop\Books\bll\obj\Debug\bll.dll
+C:\Users\huhui\Desktop\Books\bll\obj\Debug\bll.pdb
+E:\Books\bll\obj\Debug\bll.csproj.AssemblyReference.cache
+E:\Books\bll\obj\Debug\bll.csproj.CoreCompileInputs.cache
+E:\Books\bll\obj\Debug\bll.csproj.CopyComplete

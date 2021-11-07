@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>万树网上书城</title>
+    <link href="CSS/Css1.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="allDiv">
+        <!-- 头开始 -->
+        <div id="headDiv">
+            <div style="text-align:right">
+                <div>
+                    欢迎光临本店
+                    <a href="Login.html">登录</a>
+                    <a href="Region.html">注册</a>
+                </div>
+            </div>
+            <div style="height:97px">
+                <div style="float:left;width:250px">
+                    <img src="images/LogoMaker.jpg" />
+                </div>
+                <div style="float:right;width:700px">
+                    <div style="float:right;border:1px solid #D5D5D5;height:40px;width:600px;text-align:right;margin:10px;padding:5px">
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="text" id="txtSelect" style="width:500px;height:25px;line-height:25px" />
+                                </td>
+                                <td>
+                                    <a href="SelectPage.html"><img src="images/selectBtn.png" style="vertical-align:middle;cursor:pointer" /></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div style="height:36px;background-color:#B80C0C;line-height:30px;color:White;font-weight:bold;font-size:14px">
+                <table id="menuTable">
+                    <tr>
+                        <td style="text-align:center;padding-left:15px;padding-right:8px">
+                            <a href="index.html">首页</a>
+                        </td>
+                        <td>
+                            <img src="images/line1.gif" style="vertical-align:middle" />
+                        </td>
+
+                        <td style="text-align:center;padding-left:15px;padding-right:8px">
+                            <a href="CategoryPage.html">.NET</a>
+                        </td>
+                        <td>
+                            <img src="images/line1.gif" style="vertical-align:middle" />
+                        </td>
+
+                        <td style="text-align:center;padding-left:15px;padding-right:8px">
+                            <a href="CategoryPage.html">Java</a>
+                        </td>
+                        <td>
+                            <img src="images/line1.gif" style="vertical-align:middle" />
+                        </td>
+
+                        <td style="text-align:center;padding-left:15px;padding-right:8px">
+                            <a href="CategoryPage.html">网站开发</a>
+                        </td>
+                        <td>
+                            <img src="images/line1.gif" style="vertical-align:middle" />
+                        </td>
+                        <td style="text-align:center;padding-left:15px;padding-right:8px">
+                            <a href="CategoryPage.html">其他</a>
+                        </td>
+                        <td>
+                            <img src="images/line1.gif" style="vertical-align:middle" />
+                        </td>
+                        <td style="text-align:center;padding-left:15px;padding-right:8px">
+                            <a href="#">帮助中心</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="height:30px;border:1px solid #BABABA;border-top-width:0px;line-height:30px;padding:0px 5px;text-align:right">
+                <a href="flowPage.html"><img src="images/jiesuan.gif" style="vertical-align:middle;border:0px" /></a>
+            </div>
+            <p></p>
+        </div>
+        <!-- 头结束 -->
+        <!--中部开始-->
+        <div>
+            <p></p>
+            <div style="background-color:#F6F6F6;color:Black;font-weight:bold;font-size:14px;height:30px;line-height:30px;padding:3px 10px">收货人信息</div>
+            <p></p>
+            <table class="dataTable" style="width:98%">
+                <tr>
+                    <td style="text-align:right;height:30px;line-height:30px;padding:0px 8px;width:150px">收货人姓名(必填)：</td>
+                    <td style="text-align:left;height:30px;line-height:30px;padding:0px 8px">
+                        <input  type="text"  />
+                    </td>
+                    <td style="text-align:right;height:30px;line-height:30px;padding:0px 8px;width:150px">联系电话(必填)：</td>
+                    <td style="text-align:left;height:30px;line-height:30px;padding:0px 8px">
+                        <input type="text"  />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;height:30px;line-height:30px;padding:0px 8px;width:150px">收货地址(必填)：</td>
+                    <td colspan="3" style="text-align:left;height:30px;line-height:30px;padding:0px 8px">
+                        <input  type="text"  style="width:471px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;height:30px;line-height:30px;padding:0px 8px">&nbsp;</td>
+                    <td colspan="3" style="text-align:left;height:30px;line-height:30px;padding:0px 8px">
+                        <input type="button" value="使用默认地址" />&nbsp;
+                        <input type="button" value="保存为新地址" />&nbsp;
+                        <input type="button" value="地址管理" onclick="javascript: window.location.href = 'AddressPage.html'" />
+                    </td>
+                </tr>
+            </table>
+            <p></p>
+            <div style="background-color:#F6F6F6;color:Black;font-weight:bold;font-size:14px;height:30px;line-height:30px;padding:3px 10px">付款方式</div>
+            <p></p>
+            <div><input type="radio" name="money" checked="checked" />支付宝&nbsp;&nbsp;<input type="radio" name="money" />网银&nbsp;&nbsp;<input type="radio" name="money" />微信</div>
+            <p></p>
+            <div style="background-color:#F6F6F6;color:Black;font-weight:bold;font-size:14px;height:30px;line-height:30px;padding:3px 10px">购物清单</div>
+            <p></p>
+            <table class="dataTable" cellspacing="0" border="1" style="width:98%;border-collapse:collapse">
+                <tr>
+                    <th align="center" scope="col" style="height:30px;">商品名称</th>
+                    <th align="center" scope="col">售价</th>
+                    <th align="center" scope="col">折扣价</th>
+                    <th align="center" scope="col">购买数量</th>
+                    <th align="center" scope="col">小计</th>
+                </tr>
+                <tr>
+                    <td align="center" style="height:30px;">
+                        <a href="BooksPage" target="_blank">C#入门经典</a>
+                    </td>
+                    <td align="center" style="height:30px;">
+                        ￥85.00元
+                    </td>
+                    <td align="center">
+                        ￥72.00元
+                    </td>
+                    <td align="center">
+                        1
+                    </td>
+                    <td align="center">
+                        ￥72.00元
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="height:30px;">
+                        <a href="BooksPage" target="_blank">C#高级编程</a>
+                    </td>
+                    <td align="center" style="height:30px;">
+                        ￥102.00元
+                    </td>
+                    <td align="center">
+                        ￥89.00元
+                    </td>
+                    <td align="center">
+                        2
+                    </td>
+                    <td align="center">
+                        ￥178.00元
+                    </td>
+                </tr>
+            </table>
+			<div style="text-align:right;padding-top:20px">
+				<font color="#FF7126" style="font-weight:bold;font-size:20px">￥260.00元</font>&nbsp;&nbsp;
+				<input type="button" value="提交订单" onclick="javascript: window.location.href = 'DisplayPage.html'" />
+			</div>
+        </div>
+        <!--中部结束-->
+        <!--下部开始-->
+        <div id="footDiv">
+            <div style="height:10px"></div>
+            <div class="block">
+                <div class="block">
+                    <div class="box">
+                        <div class="helpTitBg" style="clear:both">
+                            <dl style="border-right:1px solid #ccc;">
+                                <dt>新手入门</dt>
+                            </dl>
+                            <dl style="border-right:1px solid #ccc;">
+                                <dt>配送说明</dt>
+                            </dl>
+                            <dl style="border-right:1px solid #ccc;">
+                                <dt>售后服务</dt>
+                            </dl>
+                            <dl style="border-right:1px solid #ccc;">
+                                <dt>强强联手</dt>
+                            </dl>
+                            <dl>
+                                <dt>关于我们</dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height:10px"></div>
+            <div style="height:25px;line-height:25px;text-align:center;background-color:#BC1010">
+                <a href="#" style="color:White;">给我们留言（希望您给我们提供宝贵的意见与建议，我们将不断改进，更好服务于大家!）</a>
+            </div>
+            <div style="height:10px"></div>
+            <div style="text-align:center">
+                &copy; 2005-2012 百利958 万树IT版权所有，并保留所有权利。
+            </div>
+        </div>
+        <!--下部结束-->
+    </div>
+</body>
+</html>

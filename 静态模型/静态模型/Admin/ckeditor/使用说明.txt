@@ -1,0 +1,10 @@
+1.将ckeditor文件夹复制到项目中
+2.在页面上引入ckeditor.js文件，例如：
+<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+设置src属性时注意页面与ckeditor文件夹的相对路径
+3.在页面上添加TextBox服务器控件并设置TextMode="MultiLine" 
+4.在TextBox服务器控件下面添加js代码
+<script type="text/javascript">CKEDITOR.replace('TextBox服务器控件名称');</script>
+注意：也可以查看生成的页面中TextBox服务器控件在客户端的name属性的值
+5.设置页面page指令的ValidateRequest="false"
+6.服务器端通过TextBox服务器控件的Text属性获取内容

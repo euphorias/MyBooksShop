@@ -1,0 +1,24 @@
+c:\Users\student\documents\visual studio 2015\Projects\Books\dal\bin\Debug\dal.dll
+c:\Users\student\documents\visual studio 2015\Projects\Books\dal\bin\Debug\dal.pdb
+c:\Users\student\documents\visual studio 2015\Projects\Books\dal\bin\Debug\models.dll
+c:\Users\student\documents\visual studio 2015\Projects\Books\dal\bin\Debug\models.pdb
+c:\Users\student\documents\visual studio 2015\Projects\Books\dal\obj\Debug\dal.csprojResolveAssemblyReference.cache
+c:\Users\student\documents\visual studio 2015\Projects\Books\dal\obj\Debug\dal.dll
+c:\Users\student\documents\visual studio 2015\Projects\Books\dal\obj\Debug\dal.pdb
+E:\Books\dal\bin\Debug\dal.dll
+E:\Books\dal\bin\Debug\dal.pdb
+E:\Books\dal\bin\Debug\models.dll
+E:\Books\dal\bin\Debug\models.pdb
+E:\Books\dal\obj\Debug\dal.dll
+E:\Books\dal\obj\Debug\dal.pdb
+C:\Users\huhui\Desktop\Books\dal\bin\Debug\dal.dll
+C:\Users\huhui\Desktop\Books\dal\bin\Debug\dal.pdb
+C:\Users\huhui\Desktop\Books\dal\bin\Debug\models.dll
+C:\Users\huhui\Desktop\Books\dal\bin\Debug\models.pdb
+C:\Users\huhui\Desktop\Books\dal\obj\Debug\dal.csproj.AssemblyReference.cache
+C:\Users\huhui\Desktop\Books\dal\obj\Debug\dal.csproj.CoreCompileInputs.cache
+C:\Users\huhui\Desktop\Books\dal\obj\Debug\dal.csproj.CopyComplete
+C:\Users\huhui\Desktop\Books\dal\obj\Debug\dal.dll
+C:\Users\huhui\Desktop\Books\dal\obj\Debug\dal.pdb
+E:\Books\dal\obj\Debug\dal.csproj.AssemblyReference.cache
+E:\Books\dal\obj\Debug\dal.csproj.CoreCompileInputs.cache

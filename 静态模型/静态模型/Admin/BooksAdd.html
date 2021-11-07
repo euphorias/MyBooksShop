@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>书籍添加</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/css.css" />
+</head>
+<body style="margin:10px">
+    <div class="title_right"><span class="pull-right margin-bottom-5"></span><strong>书籍添加</strong></div>
+    <div style="height: 800px; overflow: auto;">
+        <table class="table table-bordered" style="width:98%">
+            <tr style="height:40px">
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">书籍名称：</td>
+                <td><input name="input" type="text" class="span4"  /></td>
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">作者：</td>
+                <td><input name="input" type="text" class="span4"  /></td>
+            </tr>
+            <tr style="height:40px">
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">出版社：</td>
+                <td><input name="input" type="text" class="span4"  /></td>
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">ISBN：</td>
+                <td>
+                    <input name="input" type="text" class="span2"  />
+                    <input type="file" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">大类别：</td>
+                <td>
+                    <select class="span2" style="height:25px">
+                        <option>大类别1</option>
+                        <option>大类别2</option>
+                        <option>大类别3</option>
+                    </select>
+                </td>
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">小类别：</td>
+                <td>
+                    <select class="span2" style="height:25px">
+                        <option>小类别1</option>
+                        <option>小类别2</option>
+                        <option>小类别3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr style="height:40px">
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">标价：</td>
+                <td><input name="input" type="text" class="span2"  /></td>
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">售价：</td>
+                <td><input name="input" type="text" class="span2"  /></td>
+            </tr>
+            <tr style="height:40px">
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">字数：</td>
+                <td><input name="input" type="text" class="span2"  /></td>
+                <td align="right" nowrap="nowrap" bgcolor="#f1f1f1">初始库存：</td>
+                <td><input name="input" type="text" class="span2"  /></td>
+            </tr>
+            <tr style="height:30px">
+                <td nowrap="nowrap" bgcolor="#f1f1f1">书籍介绍：</td>
+                <td colspan="3" style="padding:5px"><textarea style="width:95%;height:100px"></textarea></td>
+            </tr>
+            <tr style="height:30px">
+                <td nowrap="nowrap" bgcolor="#f1f1f1">作者介绍：</td>
+                <td colspan="3" style="padding:5px"><textarea style="width:95%;height:100px"></textarea></td>
+            </tr>
+            <tr style="height:30px">
+                <td nowrap="nowrap" bgcolor="#f1f1f1">推荐内容：</td>
+                <td colspan="3" style="padding:5px"><textarea style="width:95%;height:100px"></textarea></td>
+            </tr>
+            <tr style="height:30px">
+                <td nowrap="nowrap" bgcolor="#f1f1f1">内容简介：</td>
+                <td colspan="3" style="padding:5px">
+                    <textarea name="editor01"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align:center">
+                    <input type="button" value="确定" class="btn btn-info" />
+					<input type="button" value="保存并继续" class="btn btn-info" />
+                    <input type="button" value="取消" class="btn btn-info" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

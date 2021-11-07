@@ -1,0 +1,14 @@
+1.将laydate复制到项目中
+2.在页面上导入js文件，例如
+<script type="text/javascript" src="/laydate/laydate.js"></script>
+3.添加服务器控件TextBox
+4.在控件的后面添加js代码
+<script>
+        !function () {
+            laydate.skin('molv');
+            laydate({ elem: '#控件ID' });
+            //laydate.skin('molv');//页面需要使用多个日历控件则添加多个此代码
+            //laydate({ elem: '#Calendar2' });
+        }();
+    </script>
+5.在服务器端通过TextBox控件的Text属性获取值

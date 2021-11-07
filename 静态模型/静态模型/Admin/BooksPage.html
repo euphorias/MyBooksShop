@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>书籍管理</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/css.css" />
+    <script type="text/javascript" src="../js/jquery1.9.0.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/sdmenu.js"></script>
+    <script type="text/javascript">
+        function showAdd() {
+            window.location.href = "BooksAdd.html?r=" + Math.random();
+        }
+    </script>
+</head>
+<body style="margin:10px">
+    <div class="title_right"><span class="pull-right margin-bottom-5"></span><strong>书籍管理</strong></div>
+    <table style="width:700px;margin:10px 0px;padding:5px 2px">
+        <tr>
+            <td align="right" nowrap="nowrap">书籍名称：</td>
+            <td><input type="text" class="span2" /></td>
+            <td align="right" nowrap="nowrap">大类别：</td>
+            <td>
+                <select class="span2" style="height:25px">
+                    <option>全部</option>
+                    <option>大类别1</option>
+                    <option>大类别2</option>
+                    <option>大类别3</option>
+                </select>
+            </td>
+            <td align="right" nowrap="nowrap">小类别：</td>
+            <td>
+                <select class="span2" style="height:25px">
+                    <option>全部</option>
+                    <option>小类别1</option>
+                    <option>小类别2</option>
+                    <option>小类别3</option>
+                </select>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td align="right" nowrap="nowrap">出版社：</td>
+            <td><input type="text" class="span2" /></td>
+            <td align="right" nowrap="nowrap">是否秒杀：</td>
+            <td>
+                <select class="span2" style="height:25px">
+                    <option>全部</option>
+                    <option>是</option>
+                    <option>否</option>
+                </select>
+            </td>
+            <td align="right" nowrap="nowrap">是否热门：</td>
+            <td>
+                <select class="span2" style="height:25px">
+                    <option>全部</option>
+                    <option>是</option>
+                    <option>否</option>
+                </select>
+            </td>
+            <td><input type="button" value="查询" class="btn btn-info" /></td>
+        </tr>
+    </table>
+    <input type="button" value="新增书籍" class="btn btn-info" onclick="showAdd()" />
+    <p />
+    <table class="table table-bordered table-striped table-hover" style="width:90%">
+        <tbody>
+            <tr align="center">
+                <td nowrap="nowrap"><strong>书籍名</strong></td>
+                <td nowrap="nowrap"><strong>大类别</strong></td>
+                <td nowrap="nowrap"><strong>小类别</strong></td>
+                <td nowrap="nowrap"><strong>出版社</strong></td>
+                <td nowrap="nowrap"><strong>标价</strong></td>
+                <td nowrap="nowrap"><strong>售价</strong></td>
+                <td nowrap="nowrap"><strong>销售数量</strong></td>
+                <td nowrap="nowrap"><strong>库存数量</strong></td>
+                <td nowrap="nowrap"><strong>是否秒杀</strong></td>
+                <td nowrap="nowrap"><strong>是否热门</strong></td>
+                <td width="80" nowrap="nowrap"><strong> 操作 </strong></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">书籍1</td>
+                <td nowrap="nowrap">大类别1</td>
+                <td nowrap="nowrap">小类别1</td>
+                <td nowrap="nowrap">出版社1</td>
+                <td nowrap="nowrap">10.00</td>
+                <td nowrap="nowrap">8.00</td>
+                <td nowrap="nowrap">32</td>
+                <td nowrap="nowrap">18</td>
+                <td nowrap="nowrap"><a href="#">是</a></td>
+                <td nowrap="nowrap"><a href="#">否</a></td>
+                <td nowrap="nowrap"><a href="BooksEdit.html">编辑</a> <a href="#">删除</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">书籍2</td>
+                <td nowrap="nowrap">大类别2</td>
+                <td nowrap="nowrap">小类别2</td>
+                <td nowrap="nowrap">出版社2</td>
+                <td nowrap="nowrap">10.00</td>
+                <td nowrap="nowrap">8.00</td>
+                <td nowrap="nowrap">32</td>
+                <td nowrap="nowrap">18</td>
+                <td nowrap="nowrap"><a href="#">是</a></td>
+                <td nowrap="nowrap"><a href="#">否</a></td>
+                <td nowrap="nowrap"><a href="BooksEdit.html">编辑</a> <a href="#">删除</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">书籍3</td>
+                <td nowrap="nowrap">大类别3</td>
+                <td nowrap="nowrap">小类别3</td>
+                <td nowrap="nowrap">出版社3</td>
+                <td nowrap="nowrap">10.00</td>
+                <td nowrap="nowrap">8.00</td>
+                <td nowrap="nowrap">32</td>
+                <td nowrap="nowrap">18</td>
+                <td nowrap="nowrap"><a href="#">是</a></td>
+                <td nowrap="nowrap"><a href="#">否</a></td>
+                <td nowrap="nowrap"><a href="BooksEdit.html">编辑</a> <a href="#">删除</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">书籍4</td>
+                <td nowrap="nowrap">大类别4</td>
+                <td nowrap="nowrap">小类别4</td>
+                <td nowrap="nowrap">出版社4</td>
+                <td nowrap="nowrap">10.00</td>
+                <td nowrap="nowrap">8.00</td>
+                <td nowrap="nowrap">32</td>
+                <td nowrap="nowrap">18</td>
+                <td nowrap="nowrap"><a href="#">是</a></td>
+                <td nowrap="nowrap"><a href="#">否</a></td>
+                <td nowrap="nowrap"><a href="BooksEdit.html">编辑</a> <a href="#">删除</a></td>
+            </tr>
+            <tr align="center">
+                <td nowrap="nowrap">书籍5</td>
+                <td nowrap="nowrap">大类别5</td>
+                <td nowrap="nowrap">小类别5</td>
+                <td nowrap="nowrap">出版社5</td>
+                <td nowrap="nowrap">10.00</td>
+                <td nowrap="nowrap">8.00</td>
+                <td nowrap="nowrap">32</td>
+                <td nowrap="nowrap">18</td>
+                <td nowrap="nowrap"><a href="#">是</a></td>
+                <td nowrap="nowrap"><a href="#">否</a></td>
+                <td nowrap="nowrap"><a href="BooksEdit.html">编辑</a> <a href="#">删除</a> </td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="text-align:left;width:90%">
+        <input type="button" value="首页" class="btn btn-info" />
+        <input type="button" value="上一页" class="btn btn-info" />
+        <input type="button" value="下一页" class="btn btn-info" />
+        <input type="button" value="尾页" class="btn btn-info" />
+		 &nbsp;当前页/总页数： 1/10
+    </div>
+</body>
+</html>
